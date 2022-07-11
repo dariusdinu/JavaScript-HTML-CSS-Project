@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 70%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to top left, #266867 0%, #f9f9f9 100%);
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  width: 100rem;
+  height: 87rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  display: flex;
+}
+
+th {
+  text-align: center;
+  color: #266867;
+  border-radius: 0.7rem;
+  background-image: linear-gradient(to top left, #849c9c00 0%, #f9f9f9 100%);
+  height: 15px;
+}
+
+td {
+  text-align: center;
+  border-radius: 0.7rem;
+  height: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+table {
+  position: absolute;
+  left: 50%;
+  top: 14.5rem;
+  width: 77%;
+  background-color: rgba(255, 255, 255, 0.849);
+  transform: translateX(-50%);
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.7rem;
+  margin-top: 60px;
+  transition: all 0.2s;
+}
+
+select {
+  position: absolute;
+  left: 50%;
+  top: 14rem;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  padding: 10px;
+  width: 77%;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 0.7rem;
+  cursor: pointer;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.4s;
+}
+
+select:hover {
+  background-color: rgba(255, 255, 255, 0.938);
+}
+
+button {
+  position: absolute;
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  top: 8rem;
+  border: none;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  color: #266867;
+  transition: all 0.2s;
+
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.Title {
+  position: absolute;
+  left: 50%;
+  align-items: center;
+  font-family: inherit;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  font-weight: bold;
+  color: #266867;
+  transition: all 0.2s;
+  top: 2rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 100px;
+  border-radius: 1rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btnTabel {
+  transition: background-color 0.4s, color 0.4s;
+  left: 20%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+}
+
+.btnTabel:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+
+.btnGrafic {
+  transition: background-color 0.4s, color 0.4s;
+  left: 80%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+}
+
+.btnGrafic:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+
+.btnChart {
+  transition: background-color 0.4s, color 0.4s;
+  left: 50%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+}
+
+.btnChart:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+
+.btnPOP {
+  transition: background-color 0.4s, color 0.4s;
+  top: 14rem;
+  left: 50%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.btnPOP:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+
+.btnSV {
+  transition: background-color 0.4s, color 0.4s;
+  top: 14rem;
+  left: 30%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.btnSV:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+.btnPIB {
+  transition: background-color 0.4s, color 0.4s;
+  top: 14rem;
+  left: 70%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.btnPIB:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+
+.btnPOPsvg {
+  transition: background-color 0.4s, color 0.4s;
+  top: 18.5rem;
+  left: 50%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.btnPOPsvg:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+
+.btnSVsvg {
+  transition: background-color 0.4s, color 0.4s;
+  top: 18.5rem;
+  left: 30%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.btnSVsvg:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+.btnPIBsvg {
+  transition: background-color 0.4s, color 0.4s;
+  top: 18.5rem;
+  left: 70%;
+  transition: all 0.2s;
+  font-size: 1.8rem;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.btnPIBsvg:hover {
+  background-color: #266867;
+  color: #f9f9f9;
+}
+
+.ChartSV,
+.ChartPOP,
+.ChartPIB {
+  position: absolute;
+  left: 50%;
+  align-items: center;
+  transform: translateX(-50%);
+  font-family: inherit;
+  top: 19.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  width: 95%;
+}
+
+.SVG {
+  position: absolute;
+  left: 50%;
+  align-items: center;
+  transform: translateX(-50%);
+  top: 23rem;
+}
+
+#default {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="3_1083_DINU_DARIUS_ANDREI.css" />
+    <title>Vizualizare Date</title>
+  </head>
+  <body>
+    <main>
+      <p class="Title">Vizualizare date</p>
+      <button type="button" class="btnTabel" id="btnTabel">
+        Afisare tabel
+      </button>
+      <button type="button" class="btnChart" id="btnChart">
+        Afisare chart
+      </button>
+      <button type="button" class="btnGrafic" id="btnGrafic">
+        Afisare grafic
+      </button>
+      <button type="button" class="btnPIB" id="btnPIB">PIB</button>
+      <button type="button" class="btnSV" id="btnSV">SV</button>
+      <button type="button" class="btnPOP" id="btnPOP">POP</button>
+      <button type="button" class="btnPIBsvg" id="btnPIBsvg">PIB</button>
+      <button type="button" class="btnSVsvg" id="btnSVsvg">SV</button>
+      <button type="button" class="btnPOPsvg" id="btnPOPsvg">POP</button>
+      <select name="select" class="select" id="selectTabel">
+        <option value="0" disabled selected id="default">
+          Selectati anul:
+        </option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+      </select>
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Tara</th>
+            <th>SV</th>
+            <th>POP</th>
+            <th>PIB</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <canvas class="ChartSV" width="1300" height="700" id="ChartSV"></canvas>
+      <canvas class="ChartPOP" width="1300" height="700" id="ChartPOP"></canvas>
+      <canvas class="ChartPIB" width="1300" height="700" id="ChartPIB"></canvas>
+      <svg
+        width="1000"
+        height="700"
+        class="SVG"
+        id="TableSVG"
+        xmlns="http://www.w3.org/2000/svg"
+      ></svg>
+      <select name="selectCountry" class="select" id="selectGrafic">
+        <option value="0" disabled selected id="default">
+          Selectati tara:
+        </option>
+        <option value="BE">Belgia</option>
+        <option value="BG">Bulgaria</option>
+        <option value="CZ">Cehia</option>
+        <option value="DK">Danemarca</option>
+        <option value="DE">Germania</option>
+        <option value="EE">Estonia</option>
+        <option value="IE">Irlanda</option>
+        <option value="EL">Grecia</option>
+        <option value="ES">Spania</option>
+        <option value="FR">Franta</option>
+        <option value="HR">Croatia</option>
+        <option value="IT">Italia</option>
+        <option value="CY">Cipru</option>
+        <option value="LV">Latvia</option>
+        <option value="LT">Lituania</option>
+        <option value="LU">Luxemburg</option>
+        <option value="HU">Ungaria</option>
+        <option value="MT">Malta</option>
+        <option value="NL">Olanda</option>
+        <option value="AT">Austria</option>
+        <option value="PL">Polonia</option>
+        <option value="PT">Portugalia</option>
+        <option value="RO">Romania</option>
+        <option value="SI">Slovenia</option>
+        <option value="SK">Slovacia</option>
+        <option value="FI">Finlanda</option>
+        <option value="SE">Suedia</option>
+      </select>
+    </main>
+    <script src="3_1083_DINU_DARIUS_ANDREI.js"></script>
+  </body>
+</html>
