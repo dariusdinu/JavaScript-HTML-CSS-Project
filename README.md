@@ -7,5 +7,5 @@ The main goal was creating an app for visualizing a dataset that consists of inf
 	Some key features:
 * better understanding of the JavaScript programming language
 * improving CSS and HTML skills
-* understanging how a JSON file works
-* using graphical elements such as SVG and Raster images
+* understanding how a JSON file works
+* working with graphical elements such as SVG and Raster images
